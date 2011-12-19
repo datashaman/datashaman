@@ -1,0 +1,97 @@
+// This File is imported last, and will override other styles in the cascade
+// Add styles here to make changes without digging in too much
+
+/*
+Theme Name: Data Shaman
+Theme URI: 
+Description: Built on Thematic Theme, based on Second to None
+Author: Marlin Forbes
+Author URI: http://www.datashaman.com/
+Template: thematic
+*/
+
+/*
+  @import "second_to_none/style";
+*/
+
+html
+{
+  background: #fff none;
+}
+
+body > header
+{
+  background: inherit;
+}
+
+#branding
+{
+  width: 526px;
+  height: 88px;
+}
+
+footer
+{
+  min-height: 0;
+}
+
+#twitter_update_list li
+{
+  padding: 3px 0 3px 20px;
+  background: url(/images/tweet.png) no-repeat left 7px;
+}
+
+#twitter_update_list li a
+{
+  display: inline;
+}
+
+article header .entry-title
+{
+  padding: 0;
+}
+
+aside ul.xoxo li
+{
+  margin-top: 0;
+  margin-bottom: 6px;
+}
+
+#social-media-page a
+{
+  margin-right: 10px;
+}
+
+input,
+textarea
+{
+  color: inherit;
+}
+
+aside ul.xoxo li#tag_cloud a
+{
+  text-transform: none;
+  text-decoration: none;
+}
+
+.st-tags
+{
+  text-decoration: none;
+}
+
+#friendfeed
+{
+  width: 200px !important;
+}
+
+img.aligncenter
+{
+  text-align: center;
+  display: block;
+}
+
+img.alignleft
+{
+  text-align: left;
+  margin-right: 12;
+}
