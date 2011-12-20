@@ -25,14 +25,6 @@ single: true
     </p>
   </footer>
 </article>
-{% if site.facebook_comments and page.comments != false %}
-  <section id="fb-comments" class="fb-comments"
-    data-href="{{site.url}}{{page.url}}"
-    data-num-posts="{{site.facebook_num_posts}}"
-    data-width="{{site.facebook_width}}"
-    aria-live="polite">
-  </section>
-{% endif %}
 </div>
 {% unless page.sidebar == false %}
 <aside class="sidebar">
