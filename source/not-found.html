@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+<div class="not-found">
+    This is not the page you are looking for.
+</div>
+<aside class="sidebar">
+  {% if site.blog_not_found_asides.size %}
+    {% include_array blog_not_found_asides %}
+  {% else %}
+    {% include_array default_asides %}
+  {% endif %}
+</aside>
