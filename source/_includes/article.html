@@ -8,8 +8,15 @@
     {% unless page.meta == false %}
       <p class="meta">
         {% include post/date.html %}{{ time }}
+
         {% if site.disqus_short_name and page.comments != false and site.disqus_show_comment_count == true %}
          | <a href="{% if index %}{{ root_url }}{{ post.url }}{% endif %}#disqus_thread">Comments</a>
+        {% endif %}
+
+        {% if site.facebook_comments and page.comments != false  %}
+        <iframe src="http://www.facebook.com/plugins/comments.php?href={{site.url}}{{root_url}}{{post.url}}&permalink=1"
+            scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:130px; height:16px;"
+            allowTransparency="true"></iframe> 
         {% endif %}
       </p>
     {% endunless %}
@@ -25,9 +32,7 @@
   {% endif %}
 {% else %}
   <div class="entry-content">{{ content }}</div>
-  {% if site.disqus_short_name and page.comments != false %}
-    <section id="disqus_thread" aria-live="polite">
-      {% include post/disqus_thread.html %}
-    </section>
+  {% if site.facebook_comments and page.comments != false %}
+    {% include post/facebook_thread.html %}
   {% endif %}
 {% endif %}

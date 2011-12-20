@@ -1,5 +1,5 @@
-{% comment %} Load script if disquss comments are enabled and `page.comments` is either empty (index) or set to true {% endcomment %}
-{% if site.disqus_short_name and page.comments != false %}
+{% comment %} Load script if Disqus comments are enabled and `page.comments` is either empty (index) or set to true {% endcomment %}
+{% if site.disqus_short_name and (index or page.comments) %}
 <script type="text/javascript">
 /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
 var disqus_developer = 1;
@@ -13,16 +13,13 @@ disqus_identifier += '{{ page.url }}';
 
 var disqus_url = disqus_identifier;
 
-{% if index %}
-var disqus_script = 'count.js';
-{% else %}
-var disqus_script = 'embed.js';
-{% endif %}
-
 /* * * DON'T EDIT BELOW THIS LINE * * */
 (function() {
-    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-    dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+    var dsq = document.createElement('script');
+    dsq.type = 'text/javascript';
+    dsq.async = true;
+    dsq.src = 'http://' + disqus_shortname + '.disqus.com/{{ index ? 'count' : 'embed' }}.js';
+
     (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
 })();
 </script>

@@ -24,10 +24,8 @@ layout: default
     </footer>
   {% endunless %}
 </article>
-{% if site.disqus_short_name and page.comments != false %}
-  <section id="disqus_thread" aria-live="polite">
-    {% include post/disqus_thread.html %}
-  </section>
+{% if site.facebook_comments and page.comments != false %}
+  {% include post/facebook_thread.html %}
 {% endif %}
 </div>
 {% unless page.sidebar == false %}

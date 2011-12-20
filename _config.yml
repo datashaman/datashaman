@@ -89,11 +89,13 @@ delicious_user:
 delicious_count: 3
 
 # Disqus Comments
-disqus_short_name: datashaman
-disqus_show_comment_count: true
+disqus_short_name: 
+disqus_show_comment_count: 
 
 # Google Analytics
 google_analytics_tracking_id:
 
-# Facebook Like
-facebook_like: true
+# Facebook Comments
+facebook_comments: true
+facebook_appid: 89526572170
+facebook_num_posts: 10
