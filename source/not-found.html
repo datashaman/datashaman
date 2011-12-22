@@ -1,14 +1,15 @@
 ---
-layout: default
+layout: page
+title: Not Found
+comments: false
+sharing: false
 ---
-
 <div class="not-found">
-    This is not the page you are looking for.
+    <script type="text/javascript">
+        var GOOG_FIXURL_LANG = 'en-GB';
+        var GOOG_FIXURL_SITE = 'http://www.example.com'
+    </script>
+    <script type="text/javascript"
+        src="http://linkhelp.clients.google.com/tbproxy/lh/wm/fixurl.js">
+    </script>
 </div>
-<aside class="sidebar">
-  {% if site.blog_not_found_asides.size %}
-    {% include_array blog_not_found_asides %}
-  {% else %}
-    {% include_array default_asides %}
-  {% endif %}
-</aside>
