@@ -11,5 +11,6 @@ sass.old
 source.old
 source/_stash
 source/stylesheets/screen.css
+source/google*.html
 vendor
 node_modules
