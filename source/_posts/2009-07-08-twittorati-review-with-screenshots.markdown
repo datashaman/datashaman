@@ -9,6 +9,7 @@ tags:
 ---
 As soon as I saw the posting about <a title="Twittorati" href="http://twittorati.com/" target="_blank">Twittorati</a> launching soon, I logged on to have a look.
 
+<!-- more -->
 Here's a snapshot of the home page.
 
 <a href="http://twitterati.com/"><img class="size-full wp-image-187" title="Twitterati Home Page" src="/images/2009/07/home-page.png" alt="Twitterati Home Page" width="600" height="462" /></a>

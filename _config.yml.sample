@@ -1,7 +1,3 @@
-# ----------------------- #
-#      Main Configs       #
-# ----------------------- #
-
 url: http://localhost:4000
 title: Your Website Here
 subtitle: Subtitles suck

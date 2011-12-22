@@ -1,4 +1,6 @@
-source "http://rubygems.org"
+source :rubygems
+source :rubyforge
+source :gemcutter
 
 group :development do
   gem 'rake'
@@ -15,6 +17,7 @@ group :development do
   gem 'stringex'
   gem 'liquid', '2.2.2'
   gem 'active_support'
+  gem 'ruby-oembed'
 end
 
 gem 'sinatra', '1.2.6'
