@@ -37,17 +37,12 @@ module Jekyll
     def render(context)
       # pipe param through liquid to make additional replacements possible
       url = Liquid::Template.parse(@text).render context
-      puts url
-
-      throw Exception
 
       # oembed look up
       result = ::OEmbed::Providers.get(url.strip!, :format => :xml)
 
       # Odd: slideshare uses provider-name instead of provider_name
       provider = result.fields['provider_name'] || result.fields['provider-name'] || 'unknown'
-
-      puts result.html
 
       "<div class=\"embed #{result.type} #{provider}\">#{result.html}</div>"
     end
