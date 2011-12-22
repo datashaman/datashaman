@@ -6,6 +6,9 @@ tags:
 - work
 - client
 - linkedin
+categories:
+- work
+- clients
 ---
 <a href="http://www.eppelsauce.com/"><img class="aligncenter size-full wp-image-128" title="Eppelsauce" src="/images/2009/06/header.jpg" alt="Eppelsauce" width="480" height="58" /></a>
 

@@ -1,13 +1,14 @@
 ---
 layout: post
 title: The King is dead! Long live the King!
-excerpt: I should probably be sleeping now, but I'm so moved by the news of Michael
-  Jackson's death that I can't yet.
 tags:
 - music
+categories:
+- play
 ---
 I should probably be sleeping now, but I'm so moved by the news of Michael Jackson's death that I can't yet.
 
+<!-- more -->
 I choked a little when I heard that he had died. Emotion is an uncommon thing for me. My reaction surprised me.
 
 But then I started thinking about the man and what he meant to me. His music was the soundtrack to a large part of my life. I have vivid memories of his work over the years and it feels like a part of my self has died with him.

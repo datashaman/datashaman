@@ -5,6 +5,8 @@ excerpt: Giving WordPress some love!
 tags:
 - work
 - wordpress
+categories:
+- work
 ---
 I've changed the site to <a title="WordPress home page" href="http://www.wordpress.org/" target="_blank">WordPress</a>. It seems to fit better with the type of content I like to send out.
 

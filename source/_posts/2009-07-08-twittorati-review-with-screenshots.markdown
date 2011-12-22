@@ -6,6 +6,8 @@ tags:
 - twitter
 - review
 - twittorati
+categories:
+- work
 ---
 As soon as I saw the posting about <a title="Twittorati" href="http://twittorati.com/" target="_blank">Twittorati</a> launching soon, I logged on to have a look.
 

@@ -11,6 +11,9 @@ tags:
 - painting
 - work
 - client
+categories:
+- work
+- clients
 ---
 [Cocolure](http://www.cocolure.co.za "Cocolure") is the latest creative
 initiative to come out of *Woodstock*, *Cape Town*'s artistic hub.

@@ -3,6 +3,8 @@ layout: post
 title: Awareness Test
 tags:
 - video
+categories:
+- play
 ---
 This is <strong>spooky</strong>! A driver's awareness test that illustrates how much we don't see, and it does it extremely well.
 

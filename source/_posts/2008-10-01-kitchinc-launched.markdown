@@ -6,6 +6,9 @@ tags:
 - cms
 - work
 - client
+categories:
+- work
+- clients
 ---
 [![Kitch.Inc](/images/2008/10/kitchinc.gif "Kitch.Inc")](http://www.kitchinc.co.za/ "Kitch.Inc")
 
