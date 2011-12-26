@@ -14,6 +14,8 @@ tags:
 categories:
 - work
 - clients
+redirects:
+- /blog/2009/06/09/cocolure-launched/
 ---
 [Cocolure](http://www.cocolure.co.za "Cocolure") is the latest creative
 initiative to come out of *Woodstock*, *Cape Town*'s artistic hub.

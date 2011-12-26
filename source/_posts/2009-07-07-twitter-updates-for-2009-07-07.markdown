@@ -5,6 +5,8 @@ excerpt: Twitter updates for the day.
 tags:
 - tweet
 - twitter
+redirects:
+- /blog/2009/07/07/twitter-updates-for-2009-07-07/
 ---
 <ul class="aktt_tweet_digest">
 	<li>RT @<a href="http://twitter.com/tweetmeme">tweetmeme</a> Twitter to Enter the Collins English Dictionary <a rel="nofollow" href="http://tinyurl.com/mcywcf">http://tinyurl.com/mcywcf</a> <a href="http://twitter.com/data_shaman/statuses/2502457304">#</a></li>

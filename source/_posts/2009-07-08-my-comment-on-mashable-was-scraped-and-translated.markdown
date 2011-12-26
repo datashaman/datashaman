@@ -8,6 +8,8 @@ tags:
 - hacking
 categories:
 - play
+redirects:
+- /blog/2009/07/08/my-comment-on-mashable-was-scraped-and-translated/
 ---
 It started with a comment on Mashable <a title="comment on mashable" href="http://mashable.com/2009/06/22/primer-twitter-hacking/#comment-11716490" target="_blank">here</a> as:
 

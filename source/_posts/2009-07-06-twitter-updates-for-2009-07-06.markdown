@@ -5,6 +5,8 @@ excerpt: Twitter updates for the day.
 tags:
 - tweet
 - twitter
+redirects:
+- /blog/2009/07/06/twitter-updates-for-2009-07-06/
 ---
 <ul class="aktt_tweet_digest">
 	<li>Woohoo! New logo and theme launched for my site - <a rel="nofollow" href="http://tr.im/r2PD">http://tr.im/r2PD</a> <a href="http://twitter.com/data_shaman/statuses/2494703017">#</a></li>

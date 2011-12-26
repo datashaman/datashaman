@@ -9,6 +9,8 @@ tags:
 categories:
 - work
 - clients
+redirects:
+- /blog/2008/10/01/kitchinc-launched/
 ---
 [![Kitch.Inc](/images/2008/10/kitchinc.gif "Kitch.Inc")](http://www.kitchinc.co.za/ "Kitch.Inc")
 

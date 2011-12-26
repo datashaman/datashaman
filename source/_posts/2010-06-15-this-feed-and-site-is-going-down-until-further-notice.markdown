@@ -1,7 +1,10 @@
 ---
 layout: post
 title: This feed and site is going down, until further notice.
-tags: []
+tags:
+- poetry
+redirects:
+- /blog/2010/06/15/this-feed-and-site-is-going-down-until-further-notice/
 ---
 It's been fun, but I don't have the time to update the site, and it seems silly to leave it here untended...
 

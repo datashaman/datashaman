@@ -95,3 +95,6 @@ google_analytics_tracking_id:
 facebook_comments: true
 facebook_appid: 
 facebook_num_posts: 10
+
+# Redirect pages generated from YAML front-matter list of redirects
+redirects: true

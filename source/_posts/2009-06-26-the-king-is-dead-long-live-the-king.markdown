@@ -5,6 +5,8 @@ tags:
 - music
 categories:
 - play
+redirects:
+- /blog/2009/06/26/the-king-is-dead-long-live-the-king/
 ---
 I should probably be sleeping now, but I'm so moved by the news of Michael Jackson's death that I can't yet.
 

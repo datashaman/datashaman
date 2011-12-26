@@ -7,6 +7,8 @@ tags:
 - work
 categories:
 - work
+redirects:
+- /blog/2009/06/05/back-in-action-again/
 ---
 I've decided to at least put something a bit more palatable up in place of the
 previous site I had. That green was starting to get on my nerves.

@@ -14,6 +14,8 @@ tags:
 - hosting
 categories:
 - work
+redirects:
+- /blog/2009/06/16/fan-fully-automated-nagios/
 ---
 I recently installed and configured a monitoring system on <a title="NeXsys" href="http://www.nexsys.co.za" target="_blank">NeXsys</a>, <a title="GamCo" href="http://www.gam.co.za" target="_blank">GamCo</a>'s flagship complex management product.
 

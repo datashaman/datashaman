@@ -5,6 +5,8 @@ tags:
 - video
 categories:
 - play
+redirects:
+- /blog/2009/07/03/awareness-test/
 ---
 This is <strong>spooky</strong>! A driver's awareness test that illustrates how much we don't see, and it does it extremely well.
 
