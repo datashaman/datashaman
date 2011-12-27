@@ -95,3 +95,10 @@ img.alignleft
   text-align: left;
   margin-right: 12;
 }
+
+.byline ~ .tags:before
+{
+  content: "\2022 ";
+  padding: 0 .4em 0 .2em;
+  display: inline-block;
+}
