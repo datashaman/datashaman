@@ -1,0 +1,12 @@
+compress_assets: true
+
+javascripts:
+    head:
+        - source/javascripts/modernizr-2.0.js
+        - source/javascripts/ender.js
+        - source/javascripts/octopress.js
+
+    core:
+        - source/javascripts/twitter.js
+        - source/javascripts/github.js
+        - source/javascripts/libs/jXHR.js

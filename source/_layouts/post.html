@@ -1,17 +1,17 @@
 ---
 layout: default
 single: true
-comments: true
 ---
 
 <div>
 <article class="hentry" role="article">
-  {% include article.html %}
+  {% include custom/article.html %}
   <footer>
     <p class="meta">
       {% include post/author.html %}
       {% include post/date.html %}{% if updated %}{{ updated }}{% else %}{{ time }}{% endif %}
       {% include post/categories.html %}
+      {% include custom/tags.html %}
     </p>
     {% unless page.sharing == false %}
       {% include post/sharing.html %}
